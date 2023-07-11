@@ -672,6 +672,7 @@ def run_tab4(df, parameters, material):
         z=z,
         color="CLUSTER",
         title=material,
+        hover_data=["LOT", "BAG"]
     )
 
     make_spec_box = st.checkbox("Specification Box")
